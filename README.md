@@ -1,20 +1,21 @@
-# 統計學習初論期末專案檔案說明
+# Kaggle - M5 Forecasting Accuracy
 
-- 我們這組使用Kaggle商品銷售數量預測比賽作為期末專案的題目，以下簡單說明各個檔案：
+- This is my final group project in the Statistical Learning course in college. I teammed with other 3 people to build a forecasting model for the Kaggle competition - M5 Forecasting - Accuracy. The goal is to predict sales quantity of products. Please refer to the link for more details.
+https://www.kaggle.com/competitions/m5-forecasting-accuracy
 
-- notebook
-    - EDA Time.ipynb  針對時間的特徵做EDA
-    - EDA_snap.ipynb  針對特賣的特徵做EDA
-    - Build Main DataFrame_Train.ipynb  將資料轉為方便分析的DataFrame
-    - Model ARIMA regression.ipynb  以ARIMA模型學習
-    - xgboost.ipynb  以XGBoost模型學習
-    - DL_Models_用商品1作為例子.ipynb  以Deep Learning學習, 預測第一項產品
-    - DL_ALL_Demo.ipynb  以Deep Learning學習, 預測完所有kaggle要求的項目
-    - Prediction_combonation  輸出結果及在kaggle上的成績
-    
-- data
-    - calendar.csv  日期、是否有特殊節日、
-    - sales_train_evaluation 不同的商品與他們的類別、所在的州、分店、不同時間的銷售數量
-    - sell_prices.csv  不同商品的價格
-    
-- submission.csv  最終各商品價格預測結果, 以此結果提交到kaggle
+- Here is a brief explanation of each file.
+
+- Notebook:
+    - EDA Time.ipynb: Exploratory Data Analysis (EDA) on time-related features
+    - EDA_snap.ipynb: EDA  on features related to special sales (SNAP)
+    - Build Main DataFrame_Train.ipynb: Converts the data into a DataFrame suitable for analysis
+    - Model ARIMA regression.ipynb: train in ARIMA model
+    - xgboost.ipynb: train in XGBoost model
+    - DL_Models_1st_product_example.ipynb: train in Deep learning model to predict the first product
+    - DL_ALL_Demo.ipynb: train in Deep learning for predicting all the items requested by Kaggle.
+    - Prediction_combination: Outputs the results and Kaggle scores.
+- Data:
+    - calendar.csv: Contains dates and information about special holidays.
+    - sales_train_evaluation: Sales quantity of different products, their categories, locations (state and store), and time.
+    - sell_prices.csv: Prices of different products.
+    - submission.csv: Final predictions of prices for each product, submitted to Kaggle.
