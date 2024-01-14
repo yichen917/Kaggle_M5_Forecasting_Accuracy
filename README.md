@@ -19,7 +19,9 @@ https://www.kaggle.com/competitions/m5-forecasting-accuracy
     - The whole process has been consolidated into the Project_Final.html for easy reading
 
 - Data: 
-    - calendar.csv: Contains dates and information about special holidays (from Kaggle)
-    - sales_train_evaluation: Sales quantity of different products, their categories, locations (state and store), and time (from Kaggle)
-    - sell_prices.csv: Prices of different products (from Kaggle)
-    - submission.csv: Final predictions of prices for each product, submitted to Kaggle
+    - Input (please refer to Kaggle):
+        - calendar.csv: Contains dates and information about special holidays
+        - sales_train_evaluation: Sales quantity of different products, their categories, locations (state and store), and time
+        - sell_prices.csv: Prices of different products
+    - Output:
+        - submission.csv: Final predictions of prices for each product, submitted to Kaggle
