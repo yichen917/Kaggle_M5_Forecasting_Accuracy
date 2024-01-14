@@ -1,6 +1,6 @@
 # Kaggle - M5 Forecasting Accuracy
 
-- This is my final group project in the Statistical Learning course in college. I teammed with other 3 people to build a forecasting model for the Kaggle competition - M5 Forecasting - Accuracy. The goal is to predict sales quantity of products. Please refer to the link for more details.
+- This is my final group project in the Statistical Learning course in college. I teammed with other 3 people to build forecasting models, including ARIMA, XGBOOST, and LSTM, for the Kaggle competition - M5 Forecasting - Accuracy. The goal is to predict sales quantity of products. Please refer to the link for more details.
 https://www.kaggle.com/competitions/m5-forecasting-accuracy
 
 - Here is a brief explanation of each file.
